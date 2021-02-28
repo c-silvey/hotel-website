@@ -1,0 +1,167 @@
+/* Reset */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+/* Utility Classes */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #c7bf61;
+  color: #333;
+}
+.text-primary {
+  color: #c7bf61;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #c7bf61
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.btn-light:hover {
+  background: #c7bf61;
+  color: #333;
+}
+/* Navbar */
+
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar h1 {
+  float: left;
+  padding: 20px;
+}
+
+#navbar h1 a {
+  color: #fff;
+}
+#navbar h1 a:hover {
+  color: #c7bf61;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  color: #d4d4d4;
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current {
+  color: #c7bf61;
+}
+
+/* Showcase */
+
+#showcase {
+  background: url('../img/showcase.jpg') no-repeat center center /cover;
+  height: 600px;
+}
+
+#showcase #showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase #showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase #showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/* Home Info */
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('../img/photo-1.jpg') no-repeat;
+  height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
