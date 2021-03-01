@@ -39,13 +39,18 @@ p {
 }
 
 .bg-light {
-  background: #f4f4f4;
+  background: #d3d3d3;
   color: #333;
 }
 
-.bg-primary {
+/* .bg-primary {
   background: #c7bf61;
   color: #333;
+} */
+
+.bg-primary {
+  background: #5a4852;
+  color: #fff;
 }
 .text-primary {
   color: #c7bf61;
@@ -149,7 +154,7 @@ p {
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url('../img/photo-1.jpg') no-repeat;
+  background: url('../img/hotel-5.jpg') no-repeat center /cover;
   height: 100%;
 }
 
@@ -164,4 +169,16 @@ p {
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  padding: 50px;
+}
+
+.box i {
+  margin-bottom: 10px;
 }
